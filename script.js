@@ -29,13 +29,12 @@ image2.setAttribute("src",randomImageSource2);
 
 if(randomNumber1 > randomNumber2){
     
-    document.querySelector("h1").innerHTML = "Player 1 wins 🏆";
-    document.querySelectorAll("p")[0].style.color = "red";
+    document.querySelectorAll("p")[0].innerHTML = "Player 1 wins 🏆";
 }
 
 else if(randomNumber2 > randomNumber1){
-    document.querySelector("h1").innerHTML = "Player 2 wins 🏆";
-    document.querySelectorAll("p")[1].style.color = "red";
+    
+    document.querySelectorAll("p")[1].innerHTML = "Player 2 wins 🏆";
 
 }
 
